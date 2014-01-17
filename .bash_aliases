@@ -49,7 +49,7 @@ alias fgrep='fgrep --color=auto'
 alias sha1='openssl sha1'
 
 # Show open ports
-alias ports='netstat -tulanp'
+alias ports='netstat -tulenp'
 
 ## shortcut  for iptables and pass it via sudo#
 alias ipt='sudo /sbin/iptables'
