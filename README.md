@@ -8,5 +8,7 @@ About
 Installation
 ------------
 Make sure you don't have a .bash_aliases in your home directory, then
-'''wget https://github.com/Linutux/bash-aliases-linutux/raw/master/.bash_aliases'''
+```
+wget https://github.com/Linutux/bash-aliases-linutux/raw/master/.bash_aliases
+```
 and then reopen your shell windows.
