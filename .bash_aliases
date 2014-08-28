@@ -10,8 +10,8 @@ alias f='firefox'
 alias n='nautilus .'
 alias r='rails'
 
-alias rcopy='rsync --partial --progress --append -r -h'
-alias rmove='rsync --partial --progress --append -r -h –-remove-sent-files'
+#alias rcopy='rsync --partial --progress --append -r -h'
+#alias rmove='rsync --partial --progress --append -r -h –-remove-sent-files'
 
 ## Colorize the ls output ##
 alias ls='ls --color=auto'
