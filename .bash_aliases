@@ -4,6 +4,7 @@
 ###
 
 ### Shorten typical commands
+alias a='sudo aptitude'
 alias d='dir'
 alias e='gedit'
 alias f='firefox'
