@@ -4,6 +4,7 @@
 ###
 
 ### Shorten typical commands
+alias a='aptitude'
 alias d='dir'
 alias e='gedit'
 alias f='firefox'
