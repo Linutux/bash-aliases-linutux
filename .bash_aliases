@@ -83,3 +83,6 @@ alias remove-old-kernels="sudo dpkg -l 'linux-*' | sed '/^ii/!d;/'"$(uname -r | 
 
 ## don't use Pubkey-Authentication with SSH ##
 alias ssh-nopub='ssh -o PubkeyAuthentication=no'
+
+## alias mtr to /usr/bin/mtr to use sudoless execution via sudoers file
+alias mtr='/usr/bin/mtr'
