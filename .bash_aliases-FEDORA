@@ -70,15 +70,9 @@ alias header='curl -I'
 alias headerc='curl -I --compress'
 
 ## upgrade via aptitude ##
-alias upgrade='sudo aptitude update && sudo aptitude upgrade'
-
-## upgrade via apt-get ##
-#alias upgrade="sudo apt-get update && sudo apt-get upgrade"
+alias upgrade='sudo dnf upgrade'
 
 ## remove old kernels via aptitude ##
-alias remove-old-kernels="sudo dpkg -l 'linux-*' | sed '/^ii/!d;/'"$(uname -r | sed "s/\(.*\)-\([^0-9]\+\)/\1/")"'/d;s/^[^ ]* [^ ]* \([^ ]*\).*/\1/;/[0-9]/!d' | xargs sudo apt-get -y purge"
-
-## remove old kernels via apt-get ##
 #alias remove-old-kernels="sudo dpkg -l 'linux-*' | sed '/^ii/!d;/'"$(uname -r | sed "s/\(.*\)-\([^0-9]\+\)/\1/")"'/d;s/^[^ ]* [^ ]* \([^ ]*\).*/\1/;/[0-9]/!d' | xargs sudo apt-get -y purge"
 
 ## don't use Pubkey-Authentication with SSH ##
