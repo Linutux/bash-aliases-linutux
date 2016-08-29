@@ -1,6 +1,6 @@
 ###
 # .bash_aliases by Linutux
-# https://github.com/Linutux/bash-aliases-linutux
+# https://gitlab.com/Linutux/bash-aliases-linutux
 ###
 
 ### Shorten typical commands
